@@ -1,0 +1,17 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "estadistica-neuronal"
+version = "0.1.0"
+description = "Funciones estadísticas y herramientas para redes neuronales"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Edwin Mejia"}
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/estadistica_neuronal"]
